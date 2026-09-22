@@ -2,9 +2,11 @@
 
 A single page 2048 game. One HTML file, no build step, no dependencies.
 
+Play it live at [df0c83kupo7b2.cloudfront.net](https://df0c83kupo7b2.cloudfront.net).
+
 ## Play
 
-Open index.html in a browser, or visit the address the deploy script prints.
+Open the live site above, or open index.html in a browser.
 
 Arrow keys, WASD or a swipe slide the tiles. Tiles with the same number merge when they touch. Z undoes a move, up to twenty moves back. The board and the best score are kept in the browser's local storage, so a refresh does not lose the game.
 
