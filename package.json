@@ -1,0 +1,11 @@
+{
+  "name": "game-2048",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single page 2048 game, hosted on S3 and CloudFront",
+  "scripts": {
+    "test": "node --test test/logic.test.mjs",
+    "deploy": "pwsh -NoProfile -File infra/deploy.ps1",
+    "destroy": "pwsh -NoProfile -File infra/destroy.ps1"
+  }
+}
