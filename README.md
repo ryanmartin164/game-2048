@@ -4,6 +4,8 @@ A single page 2048 game. One HTML file, no build step, no dependencies.
 
 Play it live at [df0c83kupo7b2.cloudfront.net](https://df0c83kupo7b2.cloudfront.net).
 
+<img src="docs/screenshot.png" alt="The 2048 game part way through a round, with a 256 tile in the bottom left corner" width="440">
+
 ## Play
 
 Open the live site above, or open index.html in a browser.
