@@ -237,6 +237,13 @@
     margin: 16px 0 0;
     line-height: 1.5;
   }
+  .help.source { margin-top: 8px; font-size: 13px; }
+  .help a {
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .help a:hover, .help a:focus-visible { color: var(--text); }
   kbd {
     font-family: inherit;
     font-size: 12px;
@@ -301,6 +308,9 @@
   <p class="help">
     Swipe, or use the arrow keys or <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>.
     Tiles with the same number merge when they touch. <kbd>Z</kbd> undoes a move.
+  </p>
+  <p class="help source">
+    <a href="https://github.com/ryanmartin164/game-2048" target="_blank" rel="noopener">Source on GitHub</a>
   </p>
   <p id="status" class="sr-only" aria-live="polite"></p>
 </main>
